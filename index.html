@@ -1,58 +1,60 @@
 <!DOCTYPE html>
-<!-- saved from url=(0063)https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm -->
-<html><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Nacho Diez Lambies</title>
-<script src="https://kit.fontawesome.com/8275630b64.js" crossorigin="anonymous"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./W3.CSS Template_files/w3.css">
-<link rel="stylesheet" href="./W3.CSS Template_files/css">
-<link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
+<html><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Nacho Diez Lambies</title>
+  <script src="https://kit.fontawesome.com/8275630b64.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./files/w3.css">
+  <link rel="stylesheet" href="./files/css">
+  <link rel="stylesheet" href="./files/font-awesome.min.css">
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+  body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('./W3.CSS\ Template_files/parallax1.jpg');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
+  /* Create a Parallax Effect */
   .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+    background-image: url('./files/parallax1.jpg');
+    min-height: 100%;
+  }
+
+  /* Second image (Portfolio) */
+  .bgimg-2 {
+    background-image: url("./files/parallax2.jpg");
     min-height: 400px;
   }
-}
-</style>
 
-<link rel="shortcut icon" href="./W3.CSS Template_files/favicon.png" />
+  /* Third image (Contact) */
+  .bgimg-3 {
+    background-image: url("./files/parallax3.jpg");
+    min-height: 400px;
+  }
+
+  .w3-wide {letter-spacing: 10px;}
+  .w3-hover-opacity {cursor: pointer;}
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
+  }
+  </style>
+
+  <link rel="shortcut icon" href="./files/favicon.png" />
 
 </head><body>
 
@@ -66,9 +68,9 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MI</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACTO</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>
+    <a href="./blog/index.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-blogger-b"></i> BLOG</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -76,6 +78,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> SOBRE MI</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACTO</a>
+    <a href="./blog/index.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> BLOG</a>
     <a href="#" class="w3-bar-item w3-button"> SEARCH</a>
   </div>
 </div>
@@ -97,7 +100,7 @@ body, html {
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Nacho Diez Lambies</b></p><br>
-      <img src="./W3.CSS Template_files/profile_pic1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      <img src="./files/profile_pic.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -165,37 +168,37 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Juego de <a href='https://cheesynacho10.github.io/rock_paper_scissors/'>piedra, papel y tijeras</a>">
+      <img src="./files/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Juego de <a href='https://cheesynacho10.github.io/rock_paper_scissors/'>piedra, papel y tijeras</a>">
     </div>
 
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Esta página web">
+      <img src="./files/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Esta página web">
     </div>
 
     <!--<div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      <img src="./files/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
     </div>
 
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      <img src="./files/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
     </div>-->
   </div>
 
   <!--<div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      <img src="./files/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
     </div>
 
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      <img src="./files/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
     </div>
 
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      <img src="./files/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
     </div>
 
     <div class="w3-col m3">
-      <img src="./W3.CSS Template_files/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      <img src="./files/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">CARGAR MÁS</button>
   </div>-->
@@ -213,7 +216,7 @@ body, html {
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
   </div>
 </div>
 
@@ -224,7 +227,7 @@ body, html {
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <img src="./W3.CSS Template_files/map.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="./files/map.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
